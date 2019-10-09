@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
 	int n;
-	cin>>n;
+	cin>>n; //input n value
 	int a[n];
 	int cnt=0;
 	int x=0;
@@ -14,7 +14,7 @@ int main()
 		cin>>a[i];
 		if (a[i]==4)
 		{
-			cnt=cnt+1;
+			cnt=cnt+1;// count increases
 		}
 		if (a[i]==3)
 		{
@@ -72,7 +72,7 @@ int main()
 			 cnt=cnt+y/2+1;
 		 }
 	 }
-    cout<<cnt+x;
+    cout<<cnt+x; //output
    
 }
 
